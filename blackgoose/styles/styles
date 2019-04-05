@@ -1,4 +1,5 @@
 <style>
+  <style>
   body {
     background-color: #faf2e4;
     font-family: 'Merriweather', verdana, sans-serif;
@@ -9,12 +10,14 @@
     font: bold 1.5em 'Merriweather', verdana, sans-serif;
     color: #B95531;
     text-shadow: .05em .05em .1em lightslategray;
+    text-align: center;
 	}
   h2, h3 {
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: .5em;
     color: olive;
+    text-align: center;
   }
   dt {
     font-weight: bold;
@@ -26,13 +29,13 @@
   dt strong {
     color: red;
   }
-  #info p { 
+  .info p { 
     font-style: italic; 
     color: gray;
   }
   .price {
     font-family: verdana, sans-serif;
-    font-style:  bold;
+    font-weight: bold;
     color: black;
    }
   .label {
@@ -40,17 +43,20 @@
     font-variant: small-caps;
     font-style: normal;
    }
-  p.warning, sup {
+  .warning, sup {
     font-size: small;
     color: red;
   }
-  h1, h2, #info { 
+ .info { 
     text-align: center;
 	}
-  h2, h3,+ p { 
+  p { 
     text-align: center;
     font-style: italic;
   }
+  ul {
+	 text-align: center;
+        }  
  nav {
         text-align: center;
         }
