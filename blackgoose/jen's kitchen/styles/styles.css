@@ -1,12 +1,13 @@
 <style>
  
   body {
-    background-color: #eoffff;
+    background-color: #EOFFFF;
     font-family: 'Merriweather', verdana, sans-serif;
     font-size: 100%;
     line-height: 1.75em;
   }
   h1 {
+    background-color:DarkCyan;
     font: bold 1.5em 'Merriweather', verdana, sans-serif;
     color: #B95531;
     text-shadow: .05em .05em .1em lightslategray;
