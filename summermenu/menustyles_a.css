@@ -52,10 +52,7 @@ p.warning, sup {
   font-style: normal;
 }
 
-h2 + p {
-  text-align: center;
-  font-style: italic;
-}
+
 
 
 </style>
