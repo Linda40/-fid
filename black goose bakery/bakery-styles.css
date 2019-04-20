@@ -181,12 +181,7 @@ main img {
   footer {
     grid-area: footer;
   }
-  #award {
-    position: absolute;
-    top: 30px
-    left: 50px
-  }
-}
+  
   
   
     
